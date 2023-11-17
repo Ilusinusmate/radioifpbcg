@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="shortcut icon"
+            href="../public/assets/logo-favicon.svg"
+            type="icone-site"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+        />
+
+        <!--Fontes-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inder&family=Inter&display=swap"
+            rel="stylesheet"
+        />
+
+        <!--Estilos-->
+        <link rel="stylesheet" href="../public/css/index.css" />
+        <link rel="stylesheet" href="../public/css/inicial.css" />
+        <link rel="stylesheet" href="../public/css/sobre.css" />
+        <link rel="stylesheet" href="../public/css/programacao.css" />
+        <link rel="stylesheet" href="../public/css/programas.css" />
+        <link rel="stylesheet" href="../public/css/equipe.css" />
+        <link rel="stylesheet" href="../public/css/contato.css" />
+        <link rel="stylesheet" href="../public/css/footer.css">
+
+        <title>Rádio Educativa IF</title>
+    </head>
+    <body>
+        <header id="header">
+            <img
+                src="../public/assets/logo.png"
+                alt="logo-radio"
+                class="logo"
+            />
+            <nav>
+                <ul id="menu">
+                    <li><a class="distance a" href="#">Sobre</a></li>
+                    <li><a class="distance" href="#">Programação</a></li>
+                    <li><a class="distance" href="#">Programas</a></li>
+                    <li><a class="distance" href="#">Equipe</a></li>
+                    <li><a class="distance" href="#">Galeria</a></li>
+                    <li><a class="distance" href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <img
+                src="../public/assets/lupa.png"
+                id="lupa"
+                class="lupa"
+            />
+            <div id="caixa-de-pesquisa" class="invisivel">
+                <form>
+                    <input type="text" name="pesquisa" id="search-container-input"/>
+                    <button type="submit" id="search-btn">Enviar</button>
+                </form>
+            </div>
+            <nav class="redes">
+                <ul>
+                    <li>
+                        <a href="" target="_blank">
+                            <img
+                                style="max-width: 3rem; margin-top: 0.2rem;"
+                                src="../public/assets/ic_round-facebook.svg"
+                                alt="fecebook"
+                                class="fecebook"
+                            />
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://instagram.com/educativafmcampina?igshid=NzZhOTFlYzFmZQ=="
+                            target="_blank"
+                        >
+                            <img
+                                style="max-width: 5.5rem; margin-top: 0.2rem;"
+                                src="../public/assets/instagram.png"
+                                alt="instagram"
+                                class="instagram"
+                            />
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://youtube.com/@EducativaFMCampina?si=VI27XWp24IaWXAl-"
+                            target="_blank"
+                        >
+                            <img
+                                style="max-width: 2.7rem; margin-top: 0.5rem;"
+                                src="../public/assets/youtube.png"
+                                alt="YouTube"
+                                class="Youtube"
+                            />
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <img
+                id="fundo"
+                src="../public/assets/background.png"
+                alt="imagem de fundo"
+            />
+            <img
+                class="imgplay"
+                src="../public/assets/fundo-play.svg"
+                alt="imagem-do-play"
+            />
+            <img
+                class="logo2"
+                src="../public/assets/logo2.svg"
+                alt="logo-do-play"
+            />
+            <button class="button">OUÇA AO VIVO</button>
+
+            <div>
+                <img
+                    class="musica"
+                    src="../public/assets/musica.svg"
+                    alt="musica"
+                />
+            </div>
+
+            <div>
+                <img
+                    class="sugestoes"
+                    src="../public/assets/sugestoes.svg"
+                    alt="sugestoes"
+                />
+            
+            </div>
+            <div>
+                <img
+                    class="participe"
+                    src="../public/assets/participe.svg"
+                    alt="participe"
+                />
+               
+            </div>
+        </main>
+
+        <section id="sobre-section">
+            <h1 class="h1">Sobre</h1>
+            <hr color="orange" class="barra" />
+
+            <p class="text p">
+                O Campus Campina Grande do IFPB inaugurou nesta sexta-feira (23)
+                a rádio 98,9, primeiro canal licenciado de concessão
+            </p>
+            <p class="text">
+                educativa da Rede Federal. O evento integra as comemorações dos
+                113 anos do IFPB.
+            </p>
+            <p class="text">
+                A solenidade oficial de inauguração da Rádio de concessão
+                educativa do IFPB foi realizada no auditório do IFPB Campina e
+            </p>
+            <p class="text">
+                transmitida tanto pelo YouTube quanto pela emissora FM.
+            </p>
+            <p class="text">
+                Clique aqui e assista a solenidade de inauguração.
+            </p>
+
+            <img
+                class="imgesquerda"
+                src="../public/assets/imgesquerda.svg"
+                alt="imagem-esquerda"
+            />
+            <img
+                class="imgdireita"
+                src="../public/assets/imgdireita.svg"
+                alt="imagem-direita"
+            />
+            <img
+                class="photo"
+                src="../public/assets/photo-director.png"
+                alt="foto-diretor"
+            />
+        </section>
+
+        <section id="programacao-container">
+            <h1 class="titulo">Programação</h1>
+            <hr class="barra" />
+            <div id="semana">
+                <ul id="lista-cronograma">
+                    <button class="custom-button">segunda-feira</button>
+                    <button class="custom-button">terça-feira</button>
+                    <button class="custom-button">quarta-feira</button>
+                    <button class="custom-button">quinta-feira</button>
+                    <button class="custom-button">sexta-feira</button>
+                    <button class="custom-button">sábado</button>
+                    <button class="custom-button">domingo</button>
+                </ul>
+            </div>
+            <div class="div-centro">
+                <div id="lista-programacao">
+                    <div id="lista-esquerda">
+                        <div class="card-programacao">
+                            <p class="horario h">00h às 06h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">06h às 07h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">07h às 08h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">08h às 09h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">09h às 10h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">10h às 12h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">12h às 12:40h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">12:40h às 13h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                    </div>
+                    <div id="lista-direita">
+                        <div class="card-programacao">
+                            <p class="horario h">13h às 13:30h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">13:35h às 14:30h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">14:30h às 15:30h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">15:30h às 17h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">17h às 18h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">18h às 19h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">19h às 20h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                        <div class="card-programacao">
+                            <p class="horario h">20h às 00h</p>
+                            <p class="programacao h">PROGRAMACAO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div-centro">
+                <div class="fundo-card">
+                    <h1 class="titulo">Especiais</h1>
+                    <div id="lista-especiais">
+                        <div class="card-programacao">
+                            <p class="horario2 h move">00h às 06h</p>
+                            <p class="programacao2 h move">PROGRAMACAO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="programas-container">
+            <h1 id="red" class="titulo">Programas</h1>
+            <hr class="barra" />
+            <div id="img-centro-container">
+                <img src="../public/assets/imgesquerda.svg" alt="" class="" />
+
+                <div class="swiper slider">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <img
+                                src="../public/assets/image-36.svg"
+                                alt=""
+                                class="img-centro"
+                            />
+                        </li>
+                        <li class="swiper-slide">
+                            <img
+                                src="../public/assets/image-35.svg"
+                                alt=""
+                                class="img-centro"
+                            />
+                        </li>
+                        <li class="swiper-slide">img 3</li>
+                        <li class="swiper-slide">img 4</li>
+                    </ul>
+
+                    <div class="arrow arrow-left">
+                        <img src="../public/assets/arrow-left.png" alt="" />
+                    </div>
+                    <div class="arrow arrow-right">
+                        <img src="../public/assets/arrow-left.png" alt="" />
+                    </div>
+                </div>
+
+                <img src="../public/assets/imgdireita.svg" alt="" class="" />
+            </div>
+        </section>
+
+        <section id="photofundo">
+            <h1 class="titulo text2">Equipe</h1>
+            <hr class="barra" />
+
+            <div class="equipe-centro">
+                <div class="grid-equipe">
+                    <div>
+                        <div class="card green">
+                            <h2>Integrante 1</h2>
+                            <p>contador</p>
+                            <img
+                                class="image"
+                                src="../public/assets/e-mail.svg"
+                                alt="e-mail"
+                            />
+                            <p class="email">
+                                lais.bruna@academico.ifpb.edu.br
+                            </p>
+                        </div>
+                        <div class="card red">
+                            <h2>Integrante 2</h2>
+                            <p>contador</p>
+                            <img
+                                class="image"
+                                src="../public/assets/e-mail.svg"
+                                alt="e-mail"
+                            />
+                        </div>
+                        <div class="card blue">
+                            <h2>Integrante 3</h2>
+                            <p>contador</p>
+                            <img
+                                class="image"
+                                src="../public/assets/e-mail.svg"
+                                alt="e-mail"
+                            />
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card orange">
+                            <h2>Integrante 4</h2>
+                            <p>contador</p>
+                            <img
+                                class="image"
+                                src="../public/assets/e-mail.svg"
+                                alt="e-mail"
+                            />
+                        </div>
+                        <div class="card pink">
+                            <h2>Integrante 5</h2>
+                            <p>contador</p>
+                            <img
+                                class="image"
+                                src="../public/assets/e-mail.svg"
+                                alt="e-mail"
+                            />
+                        </div>
+                        <div class="card green">
+                            <h2>Integrante 6</h2>
+                            <p>contador</p>
+                            <img
+                                class="image"
+                                src="../public/assets/e-mail.svg"
+                                alt="e-mail"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="programas-container">
+            <h1 id="red" class="titulo">Galeria</h1>
+            <hr class="barra" />
+            <div id="img-centro-container">
+                <img src="../public/assets/imgesquerda.svg" alt="" class="" />
+
+                <div class="swiper swiper-galeria slider">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <img
+                                src="../public/assets/image-31.svg"
+                                alt=""
+                                class="img-centro"
+                            />
+                        </li>
+                        <li class="swiper-slide">
+                            <img
+                                src="../public/assets/image-32.svg"
+                                alt=""
+                                class="img-centro"
+                            />
+                        </li>
+                        <li class="swiper-slide">
+                            <img
+                                src="../public/assets/image-33.svg"
+                                alt=""
+                                class="img-centro"
+                            />
+                        </li>
+                        <li class="swiper-slide">
+                            <img
+                                src="../public/assets/image-31.svg"
+                                alt=""
+                                class="img-centro"
+                            />
+                        </li>
+                        <li class="swiper-slide">
+                            <img
+                                src="../public/assets/image-32.svg"
+                                alt=""
+                                class="img-centro"
+                            />
+                        </li>
+                        <li class="swiper-slide">
+                            <img
+                                src="../public/assets/image-33.svg"
+                                alt=""
+                                class="img-centro"
+                            />
+                        </li>
+                    </ul>
+
+                    <div class="arrow arrow-left">
+                        <img src="../public/assets/arrow-left.png" alt="" />
+                    </div>
+                    <div class="arrow arrow-right">
+                        <img src="../public/assets/arrow-left.png" alt="" />
+                    </div>
+                </div>
+
+                <img src="../public/assets/imgdireita.svg" alt="" class="" />
+            </div>
+        </section>
+
+        <section id="contato-container" class="text2">
+            <h1 class="titulo">Contato</h1>
+            <hr class="barra" />
+
+            <div class="container">
+                <div class="form">
+                    <form action="" class="contato-form">
+                        <p>Entre em contato conosco</p>
+                        <input class="campo" type="text" placeholder="Nome" />
+                        <textarea
+                            class="campo"
+                            name=""
+                            id=""
+                            cols="30"
+                            rows="10"
+                            placeholder="Mensagem"
+                        ></textarea>
+                        <button type="submit" class="back-green text2">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+                <div class="card-contato">
+                    <p>Contato</p>
+                    <hr />
+                    <div id="infos">
+                        <div>
+                            <img
+                                id="img-loc"
+                                src="../public/assets/localizacao-icone.svg"
+                                alt=""
+                            />
+                            <p>671 - Tranquilino Coelho Lemos</p>
+                        </div>
+                        <div>
+                            <img
+                                id="img-mail"
+                                src="../public/assets/email-icone.svg"
+                                alt=""
+                            />
+                            <p>educativafm@ifpb.edu.br</p>
+                        </div>
+                        <div>
+                            <img
+                                id="img-phone"
+                                src="../public/assets/telefone-icone.svg"
+                                alt=""
+                            />
+                            <p>83 2102 - 6298</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="column">
+              <img id="logo-marca" src="../public/assets/logo-marca.svg" alt="">
+              <img id="logo-if" src="../public/assets/logo-if.svg" alt="">
+            </div>
+      
+            <div class="column">
+              <div class="row">
+                <p class="titulo-footer">sobre</p>
+                <hr color="var(--blue-color);"/>
+                <a class="link-footer">Informações sobre a rádio</a>
+              </div>
+              <div class="row">
+                <p class="titulo-footer">programação</p>
+                <hr color="var(--pink-color);" />
+                <a class="link-footer">Dias, horários e programas que ocorreram</a>
+              </div>
+            </div>
+      
+            <div class="column">
+              <div class="row">
+                <p class="titulo-footer">programas</p>
+                <hr color="var(--orange-color);" />
+                <a href="" class="link-footer">Parte visual dos programas</a>
+              </div>
+              <div class="row">
+                <p class="titulo-footer">equipe</p>
+                <hr color="var(--green-color)" />
+                <a href="" class="link-footer">Membros responsáveis pela criação do site e seus integrantes</a>
+              </div>
+            </div>
+      
+            <div class="column">
+              <div class="row">
+                <p class="titulo-footer">galeria</p>
+                <hr color="var(--green-color)" />
+                <a class="link-footer">Fotos da rádio</a>
+              </div>
+              <div class="row">
+                <p class="titulo-footer">início</p>
+                <hr color="var(--orange-color);" />
+                <div class="column">
+                  <a class="link-footer">Logo</a>
+                  <a href="" class="link-footer">Músicas</a>
+                  <a href="" class="link-footer">Sugestões</a>
+                  <a href="" class="link-footer">Participe</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="column">
+              <div class="row" style="margin-bottom: 3.9rem;">
+                <p class="titulo-footer">contato</p>
+                <hr color="var(--blue-color);" />
+                <div class="column">
+                  <a href="" class="link-footer">Telefone</a>
+                  <a href="" class="link-footer">E-mail</a>
+                  <a href="" class="link-footer">Caixa de texto</a>
+                </div>
+              </div>
+              <div class="row">
+                <hr>
+                <a class="link-footer">
+                  <img class="rede-social" src="../public/assets/logo-youtube-branco.svg" alt="">
+                </a>
+                <a class="link-footer">
+                  <img class="rede-social" src="../public/assets/logo-facebook-branco.svg" alt="">
+                </a>
+                <a class="link-footer">
+                  <img class="rede-social" src="../public/assets/logo-instagram-branco.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="../public/js/index.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".swiper", {
+                slidesPerView: 2,
+                loop: true,
+                spaceBetween: 0,
+                navigation: {
+                    nextEl: ".arrow-right",
+                    prevEl: ".arrow-left",
+                },
+            });
+
+            var swiperGaleria = new Swiper(".swiper-galeria", {
+                slidesPerView: 3,
+                loop: true,
+                spaceBetween: 0,
+                navigation: {
+                    nextEl: ".arrow-right",
+                    prevEl: ".arrow-left",
+                },
+            });
+        </script>
+    </body>
+</html>

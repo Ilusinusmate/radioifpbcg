@@ -1,0 +1,71 @@
+:root {
+    --swiper-navigation-size: 8rem !important;
+}
+
+#programas-container {
+    min-height: 100vh;
+}
+
+#red {
+    color: var(--red-color);
+}
+
+#img-centro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.2rem 0;
+    height: 80vh;
+}
+
+#img-centro-container > img {
+    height: 70%;
+}
+
+.img-centro {
+    width: 100%;
+    height: 100%;
+}
+
+/* slider */
+
+.slider {
+    margin: 0 6.4rem;
+}
+
+/*
+.seta img {
+    height: 100%;
+    width: 9rem;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--yellow-color);
+}
+*/
+
+.arrow img {
+    height: var(--swiper-navigation-size);
+}
+
+.arrow {
+    /* logica alinhamento vertical no slider */
+    position: absolute;
+    height: var(--swiper-navigation-size);
+    top: var(--swiper-navigation-top-offset,50%);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+
+    cursor: pointer;
+  }
+
+.arrow-right {
+    transform: rotate(-180deg);
+
+    right: var(--swiper-navigation-sides-offset, 10px);
+    left: auto;
+}
+
+.arrow-left {
+    left: var(--swiper-navigation-sides-offset, 10px);
+}

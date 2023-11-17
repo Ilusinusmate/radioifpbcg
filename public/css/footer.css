@@ -1,0 +1,62 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--red-color);
+
+  color: var(--white-color);
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2rem 4rem 4rem 4rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column > * {
+    width: 13.75rem;
+}
+
+.column .row {
+    flex: 1;
+}
+
+.column > div > hr {
+    margin-bottom: 1rem;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+}
+
+.link-footer:hover{
+    color: #ffcccc; 
+}
+
+.titulo-footer {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.rede-social {
+    width: 3.555rem;
+    height: 3.4375rem;
+}
+
+#logo-marca {
+    width: 16.6875rem;
+    height: 16.3125rem;
+}
+
+#logo-if {
+    width: 8.64794rem;
+    height: 7.5rem;
+}

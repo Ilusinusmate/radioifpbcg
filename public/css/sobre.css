@@ -1,0 +1,60 @@
+
+.h1 {
+    text-align: center;
+    /*margin-top: -4rem; */
+    color: #bf0b3b;
+    font-family: "Inder", sans-serif;
+}
+.barra {
+    /*position: relative;
+    left: 31rem;*/
+    background-color: #f28b0c;
+    /*margin-top: 1.875rem;*/
+    width: 88.62519rem;
+    height: 0.3rem;
+    border: 0;
+}
+
+.imgesquerda {
+    position: relative;
+    top: -2rem;
+    left: 0;
+    margin-right: 131rem;
+    width: 9.09813rem;
+    height: 31.25rem;
+    flex-shrink: 0;
+}
+
+.imgdireita {
+    position: relative;
+    top: -2rem;
+    width: 9.81975rem;
+    height: 31.25rem;
+    flex-shrink: 0;
+}
+.p {
+    margin-top: 3.125rem;
+}
+
+.text {
+    display: flex;
+    margin-left:25rem;
+    margin-right: 25rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    font-family: Inder;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1875rem; /* 145.833% */
+}
+.photo {
+    position: relative;
+    left: 20.5%;
+    top: -25rem;
+    width: 88.5rem;
+    height: 22.6875rem;
+    flex-shrink: 0;
+}

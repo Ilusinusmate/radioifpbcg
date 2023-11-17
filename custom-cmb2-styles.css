@@ -1,0 +1,6 @@
+/* Estilo para alinhar os campos um ao lado do outro */
+.cmb2-id-hora_inicio,
+.cmb2-id-hora_fim {
+    display: inline-block;
+    margin-right: 10px; /* Adicione margem direita para separar os campos */
+}

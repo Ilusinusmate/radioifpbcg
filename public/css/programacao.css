@@ -1,0 +1,152 @@
+#programacao-container {
+    background-image: url(../assets/background-programacao.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+.custom-button {
+    background-color: transparent; /* Define o fundo como transparente para ocultar a cor */
+    border: 0.0625rem solid transparent; /* Adiciona uma borda preta para delimitar o botão */
+    color: white; /* Define a cor do texto */
+    padding: 0.625rem 1.25rem; /* Ajusta o espaçamento interno do botão */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor de fundo */
+    border-radius: 1rem;
+    font-family: Inder;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+.custom-button:hover,
+.custom-button:focus {
+    background-color: white;
+    color: #d50bd9;
+}
+
+.focus {
+    background-color: white;
+    color: #d50bd9;
+}
+
+.custom-button:active {
+    background-color: white;
+}
+
+#semana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#lista-cronograma {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#lista-cronograma li {
+    display: inline;
+    padding: 2.4rem;
+}
+
+.fundo-card {
+    display: grid;
+    border-radius: 3.125rem;
+    background: rgba(255, 255, 255, 0.25);
+    width: 90rem;
+    height: 20.125rem;
+    margin-bottom: 5rem;
+}
+
+/*
+.barra {
+  width: 89rem;
+  height: 0.25rem;
+  background: #F28B0C;
+  border: 0;
+}*/
+
+#lista-programacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 90rem;
+    height: auto;
+    border-radius: 3.125rem;
+    margin-bottom: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.div-centro {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.card-programacao {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    /*margin-top: 1rem;*/
+}
+.horario {
+    display: grid;
+    background-color: #fff;
+    color: #d50bd9;
+    width: 14rem;
+    height: 3.75rem;
+    margin-bottom: 1rem;
+}
+.horario2 {
+    display: grid;
+    background-color: #fff;
+    color: #d50bd9;
+    width: 27.625rem;
+    height: 3.75rem;
+    margin-bottom: 1rem;
+}
+
+.programacao {
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.26);
+    width: 21.4375rem;
+    height: 3.75rem;
+    margin-bottom: 1rem;
+}
+.programacao2 {
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.26);
+    width: 43.0625rem;
+    height: 3.75rem;
+    margin-bottom: 1rem;
+}
+.h {
+    /*class para alinhar intens do horario e da programação no centro da div*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Inder;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1875rem; /* 145.833% */
+}
+
+.move {
+    display: flex;
+    margin-top: -5rem;
+}
+
+/*
+.card-programacao:nth-child(1n){
+    background-color: deeppink;
+}
+
+.card-programacao:nth-child(2n){
+    background-color: black;
+}
+*/
