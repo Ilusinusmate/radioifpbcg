@@ -42,7 +42,7 @@ function renderPosts(data){
             </section>
         `;
 
-        contentSection += newPost
+        contentSection.innerHTML += newPost
     }
 }
 
