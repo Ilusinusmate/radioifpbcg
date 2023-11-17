@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Educativa IF - Ouça Agora </title>
+    <link rel="stylesheet" href="./public/css/player.css">
+    <script src="./public/js/player.js" defer></script>
+
+</head>
+<body>
+
+    <!-- Mesmo header da Home -->
+    <header id="header">
+        <img
+            src="../public/assets/logo.png"
+            alt="logo-radio"
+            class="logo"
+        />
+        <nav>
+            <ul id="menu">
+                <li><a class="distance a" href="#">Sobre</a></li>
+                <li><a class="distance" href="#">Programação</a></li>
+                <li><a class="distance" href="#">Programas</a></li>
+                <li><a class="distance" href="#">Equipe</a></li>
+                <li><a class="distance" href="#">Galeria</a></li>
+                <li><a class="distance" href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <img
+            src="../public/assets/lupa.png"
+            id="lupa"
+            class="lupa"
+        />
+        <div id="caixa-de-pesquisa" class="invisivel">
+            <form>
+                <input type="text" name="pesquisa" id="search-container-input"/>
+                <button type="submit" id="search-btn">Enviar</button>
+            </form>
+        </div>
+        <nav class="redes">
+            <ul>
+                <li>
+                    <a href="" target="_blank">
+                        <img
+                            style="max-width: 3rem; margin-top: 0.2rem;"
+                            src="../public/assets/ic_round-facebook.svg"
+                            alt="fecebook"
+                            class="fecebook"
+                        />
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://instagram.com/educativafmcampina?igshid=NzZhOTFlYzFmZQ=="
+                        target="_blank"
+                    >
+                        <img
+                            style="max-width: 5.5rem; margin-top: 0.2rem;"
+                            src="../public/assets/instagram.png"
+                            alt="instagram"
+                            class="instagram"
+                        />
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://youtube.com/@EducativaFMCampina?si=VI27XWp24IaWXAl-"
+                        target="_blank"
+                    >
+                        <img
+                            style="max-width: 2.7rem; margin-top: 0.5rem;"
+                            src="../public/assets/youtube.png"
+                            alt="YouTube"
+                            class="Youtube"
+                        />
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Renderização do conteúdo por meio de JS -->
+    <main class="container", id="content-holder">
+
+    </main>
+    
+</body>
+</html>
